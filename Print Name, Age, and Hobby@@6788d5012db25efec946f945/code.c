@@ -9,6 +9,7 @@ int main() {
     char name[];
     int age;
     char favourite_hobby[];
+    scanf("%n %d %c",&name,&age,&Hobby);
     printf("Name: %c\n Age: %d\n Hobby: %c");
     return 0;
 }

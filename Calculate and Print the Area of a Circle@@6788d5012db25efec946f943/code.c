@@ -8,6 +8,6 @@ int main() {
     //printf("%s", welcome());
     float radius;
     scanf("%f",&radius);
-    printf("Area: %.2f"((3.14*(radius)**2)));
+    printf("Area: %.2lf"((3.14*(radius)**2)));
     return 0;
 }

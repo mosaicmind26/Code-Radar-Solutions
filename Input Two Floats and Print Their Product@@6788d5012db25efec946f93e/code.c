@@ -6,9 +6,9 @@ char* welcome() {
 
 int main() {
     //printf("%s", welcome());
-    float 1st, 2nd;
-    scanf("%.2f %.2f",&1st ,&2nd);
+    float first, second;
+    scanf("%.2f %.2f",&first ,&second);
     //printf("Product: %f"(1st*2nd));
-    printf("Product: %f",(1st*2nd));
+    printf("Product: %f",(first*second));
     return 0;
 }

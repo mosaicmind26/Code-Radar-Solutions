@@ -6,9 +6,9 @@ char* welcome() {
 
 int main() {
     //printf("%s", welcome());
-    char name[];
+    char name[67];
     int age;
-    char favourite_hobby[];
+    char favourite_hobby[90];
     scanf("%c %d %c",&name,&age,&favourite_hobby);
     printf("Name: %c",name);
     printf("Age: %d",age);

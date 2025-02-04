@@ -8,6 +8,7 @@ int main() {
     //printf("%s", welcome());
     double number;
     scanf("%lf",&number);
-    print("You entered: %.4lf",number);
+    //printf("You entered: %.4lf",number);
+    printf("You entered: %.4f",number);
     return 0;
 }

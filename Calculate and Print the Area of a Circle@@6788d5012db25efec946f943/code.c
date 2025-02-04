@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     //printf("%s", welcome());
     float radius;
-    scanf("%f",&radius);
+    scanf("%lf",&radius);
     printf("Area: %.2lf"((3.14*(radius)**2)));
     return 0;
 }

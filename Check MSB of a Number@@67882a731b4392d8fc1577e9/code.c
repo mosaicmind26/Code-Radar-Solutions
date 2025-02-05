@@ -11,7 +11,7 @@ int main() {
     scanf("%d",&num);
     int MSB_check = 1 << (bit_size-1);
     if (num & MSB_check){
-        printf("Set")
+        printf("Set");
     }
     else{
         printf("Not Set");

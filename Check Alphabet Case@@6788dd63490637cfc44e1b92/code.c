@@ -9,13 +9,13 @@ int main() {
     char letter;
     scanf("%c",&letter);
     if (isupper(letter)){
-        printf("Uppercase");
+        printf("Uppercase",letter);
     }
     else if (islower(letter)){
-        printf("Lowercase");
+        printf("Lowercase",letter);
     }
     else {
-        printf("Not an alphabet");
+        printf("Not an alphabet",letter);
     }
     return 0;
 }

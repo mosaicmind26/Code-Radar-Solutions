@@ -10,17 +10,17 @@ int main() {
     scanf("%d",&a);
     rem_3=a%3;
     rem_5=a%5;
-    if (rem_3==0){
+    if (rem_5==0){
+        printf("Divisible by 5");
+    }
+    else if (rem_3==0){
         printf("Divisible by 3");
     }
     else if (rem_5==0){
         printf("Divisible by 5");
     }
-    else if ((rem_3==0)&&(rem_5==0)){
-        printf("Divisible by Both");
-    }
-    else (
+    else {
         printf("Not Divisible");
-    )
+    }
     return 0;
 }

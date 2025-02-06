@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     //printf("%s", welcome());
     int a;
-    scanf("%d",&a):
+    scanf("%d",&a);
     if ((a==0)||(a<0)){
         printf("Freezing");
     }

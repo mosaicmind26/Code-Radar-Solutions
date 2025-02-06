@@ -8,7 +8,7 @@ int main() {
     //printf("%s", welcome());
     int a,b;
     scanf("%d %d",&a,&b);
-    if ((pow(a))==b){
+    if (a==(b*b)){
         printf("Yes");
     }
     else{

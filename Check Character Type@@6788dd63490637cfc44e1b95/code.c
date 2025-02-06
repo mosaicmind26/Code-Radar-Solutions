@@ -8,7 +8,7 @@ char* welcome() {
 int main() {
     //printf("%s", welcome());
     char letter;
-    scanf("%c",&letter);
+    scanf("%c %d",&letter);
     if ((letter=='a')||(letter=='e')||(letter=='i')||(letter=='o')||(letter=='u')){
         printf("Vowel");
     }

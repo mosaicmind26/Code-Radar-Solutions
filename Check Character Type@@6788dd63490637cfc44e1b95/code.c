@@ -11,7 +11,7 @@ int main() {
     if ((letter=='a')||(letter=='e')||(letter=='i')||(letter=='o')||(letter=='u')){
         printf("Vowel");
     }
-    else if ((letter!='a')||(letter!='e')||(letter!='i')||(letter1='o')||(letter!='u')){
+    else if ((letter!='a')||(letter!='e')||(letter!='i')||(letter!='o')||(letter!='u')){
         printf("Consonant");
     }
     else if (isdigit(letter)){

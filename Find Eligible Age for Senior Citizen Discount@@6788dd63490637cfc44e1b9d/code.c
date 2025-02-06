@@ -8,11 +8,11 @@ int main() {
     //printf("%s", welcome());
     int age;
     scanf("%d",age);
-    if (age>=60){
-        printf("Eligible");
+    if (age<60){
+        printf("Not Eligible");
     }
     else {
-        printf("Not Eligible");
+        printf("Eligible");
     }
     return 0;
 }

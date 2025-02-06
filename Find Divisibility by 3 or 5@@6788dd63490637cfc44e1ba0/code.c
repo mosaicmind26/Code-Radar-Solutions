@@ -10,8 +10,8 @@ int main() {
     scanf("%d",&a);
     rem_3=a%3;
     rem_5=a%5;
-    if (rem_5==0){
-        printf("Divisible by 5");
+    if ((rem_5==0)&&(rem_3==0)){
+        printf("Divisible by Both");
     }
     else if (rem_3==0){
         printf("Divisible by 3");

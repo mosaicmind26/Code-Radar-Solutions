@@ -8,16 +8,16 @@ int main() {
     //printf("%s", welcome());
     char letter;
     scanf("%c",&letter);
-    if (letter==A){
+    if (letter=='A'){
         printf("Excellent");
     }
-    else if (letter==B){
+    else if (letter=='B'){
         printf("Good");
     }
-    else if (letter==C){
+    else if (letter=='C'){
         printf("Average");
     }
-    else if (letter==D){
+    else if (letter=='D'){
         printf("Below Average");
     }
     else{

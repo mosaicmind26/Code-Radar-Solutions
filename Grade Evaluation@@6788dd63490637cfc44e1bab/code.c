@@ -8,7 +8,7 @@ int main() {
     //printf("%s", welcome());
     char letter;
     scanf(%c,&letter);
-    
+    char upper = toupper(letter);
     if (letter==A){
         printf("Excellent");
     }

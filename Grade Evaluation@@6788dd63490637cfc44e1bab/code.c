@@ -20,8 +20,11 @@ int main() {
     else if (letter=='D'){
         printf("Below Average");
     }
-    else{
+    else if(letter=='F'){
         printf("Fail");
+    }
+    else{
+        printf("Invalid Grade");
     }
     return 0;
 }

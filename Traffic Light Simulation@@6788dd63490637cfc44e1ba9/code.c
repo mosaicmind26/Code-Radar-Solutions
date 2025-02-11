@@ -4,11 +4,11 @@
 int main(){
     char a;
     scanf("%d",&a);
-    b= isupper(a);
-    if (b==R){
+    a= isupper(a);
+    if (a==R){
         printf("Stop");
     }
-    if else (b==G){
+    if else (a==G){
         printf("Go");
     }
     else{

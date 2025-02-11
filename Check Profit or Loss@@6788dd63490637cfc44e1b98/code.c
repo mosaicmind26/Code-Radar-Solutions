@@ -7,11 +7,11 @@ char* welcome() {
 int main() {
     //printf("%s", welcome());
     int cost_price , selling_price;
-    scanf("%d %d",&cost_price,&selliing_price);
+    scanf("%d %d",&cost_price,&selling_price);
     if (cost_price < selling_price){
         printf("Profit");
     }
-    else if(cost_price > selliing_price){
+    else if(cost_price > selling_price){
         printf("Loss");
     }
     else{

@@ -6,12 +6,12 @@ char* welcome() {
 
 int main() {
     //printf("%s", welcome());
-    int cost_price , selling_price;
-    scanf("%d %d",&cost_price,&selliing_price );
-    if (cost_price<selling_price){
+    int cost price , selling price;
+    scanf("%d %d",&cost price,&selliing price );
+    if (cost price<selling price){
         printf("Profit");
     }
-    else if(cost_price>selliing_price){
+    else if(cost price>selliing price){
         printf("Loss");
     }
     else{

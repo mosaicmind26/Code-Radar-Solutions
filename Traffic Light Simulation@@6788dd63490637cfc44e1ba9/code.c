@@ -6,7 +6,7 @@ int main(){
     if (a =='R'){
         printf("Stop");
     }
-    if else (a =='G'){
+    else if (a =='G'){
         printf("Go");
     }
     else{

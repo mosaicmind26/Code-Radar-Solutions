@@ -14,10 +14,10 @@ int main() {
     else if (letter==B){
         printf("Good");
     }
-    else if(letter==C){
+    else if (letter==C){
         printf("Average");
     }
-    else if(letter==D){
+    else if (letter==D){
         printf("Below Average");
     }
     else{

@@ -5,10 +5,10 @@ int main(){
     char a;
     scanf("%c",&a);
     a= isupper(a);
-    if (a==R){
+    if (a=='R'){
         printf("Stop");
     }
-    if else (a==G){
+    if else (a=='G'){
         printf("Go");
     }
     else{

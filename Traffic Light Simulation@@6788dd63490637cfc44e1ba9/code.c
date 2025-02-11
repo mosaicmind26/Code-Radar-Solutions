@@ -3,7 +3,7 @@
 #include <ctype.h>
 int main(){
     char a;
-    scanf("%d",&a);
+    scanf("%c",&a);
     a= isupper(a);
     if (a==R){
         printf("Stop");

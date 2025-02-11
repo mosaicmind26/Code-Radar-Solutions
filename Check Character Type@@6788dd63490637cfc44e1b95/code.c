@@ -10,10 +10,10 @@ int main() {
     char letter;
     scanf("%c %d",&letter);
     if (isalpha(letter)){
-        if ((letter=='a'||'A')||(letter=='e'||'E')||(letter=='i'||'I')||(letter=='o'||'O')||(letter=='u'||'U')){
+        if ((letter=='a'||letter=='A')||(letter=='e'||letter=='E')||(letter=='i'||letter=='I')||(letter=='o'||letter=='O')||(letter=='u'||letter=='U')){
             printf("Vowel");
         }
-        else if ((letter!='a'||'A')||(letter!='e'||'E')||(letter!='i'||'I')||(letter!='o'||'O')||(letter!='u'||U)||(isupper(lower))){
+        else {
             printf("Consonant");
         }
     }

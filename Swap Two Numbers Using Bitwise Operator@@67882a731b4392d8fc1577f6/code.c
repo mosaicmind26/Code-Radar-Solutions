@@ -6,7 +6,7 @@ int main(){
     if(a!=b){
         a=a^b;
         b=b^a;
-        printf("%d",a);
-        printf("%d",b);
+        printf("%d %d",a,b);
+        
     }
 }

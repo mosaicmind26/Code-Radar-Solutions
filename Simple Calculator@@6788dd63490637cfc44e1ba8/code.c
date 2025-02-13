@@ -26,6 +26,8 @@ int main(){
 
         }
     }
-    e
+    else{
+        printf("Invalid");
+    }
     return 0;
 }

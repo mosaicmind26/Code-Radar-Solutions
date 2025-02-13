@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int a,b,c;
-    scanf("%d %d %c",&a,&b,&c);
+    scanf("%f %f %c",&a,&b,&c);
     if (c=='+'){
         int d= (a+b);
         printf("%d",d);
@@ -15,9 +15,17 @@ int main(){
         int f=(a*b);
         printf("%d",f);
     }
-    else{
+    else if (c=='/'){
+        if(b==0){
+            printf("invalid");
+        }
+        else{
+        
         int g=(a/b);
         printf("%d",g);
+
+        }
     }
+    e
     return 0;
 }

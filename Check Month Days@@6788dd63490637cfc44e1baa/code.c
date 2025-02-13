@@ -9,6 +9,8 @@ int main(){
     else if (a==4 || a==6 || a==8 ||a==10 || a==12){
         printf("30");
     }
-    
+    else{
+        printf("28");
+    }
     return 0;
 }

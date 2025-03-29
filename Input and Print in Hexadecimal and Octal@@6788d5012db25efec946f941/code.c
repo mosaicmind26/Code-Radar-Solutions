@@ -1,15 +1,8 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-int main() {
-    //printf("%s", welcome());
-    int integer;
-    scanf("%d",&integer);
-    //printf("Hexadecimal: %X",integer);
-    printf("Hexadecimal: %X\n",integer);
-    printf("Octal: %o",integer);
+int main(){
+    int a;
+    scanf("%d",&a);
+    printf("Hexadecimal: %X\n",a);
+    printf("Octal: %o", a);
     return 0;
 }

@@ -1,5 +1,5 @@
 #include <stdio.h>
-int amin(){
+int main(){
     int a,b,z;
     scanf("%d %d",&a,&b);
     z=(a&b);

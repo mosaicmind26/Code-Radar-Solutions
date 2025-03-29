@@ -1,13 +1,7 @@
-#include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-int main() {
-    //printf("%s", welcome());
-    char letter;
-    scanf("%c",&letter);
-    printf("ASCII Value: %d",letter);
+#include<stdio.h>
+int main(){
+    char a;
+    scanf("%c",&a);
+    printf("%d",a);
     return 0;
 }

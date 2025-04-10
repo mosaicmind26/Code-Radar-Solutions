@@ -11,6 +11,6 @@ int main(){
         }
     
     }
-    printd("%d",count);
+    printf("%d",count);
     return 0;
 }

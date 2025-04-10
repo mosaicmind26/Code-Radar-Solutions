@@ -6,7 +6,7 @@ int main(){
     int count=0;
     int l= strlen(a);
     for(int i=0;i<l;i++){
-        if(i=='a'||i=='e'||i=='i'||i=='o'||i=='u'){
+        if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'){
             count=count+1;
         }
         printf("%d",count);

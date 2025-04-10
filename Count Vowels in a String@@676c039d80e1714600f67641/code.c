@@ -9,7 +9,8 @@ int main(){
         if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u'){
             count=count+1;
         }
-        printf("%d",count);
+    
     }
+    printd("%d",count);
     return 0;
 }

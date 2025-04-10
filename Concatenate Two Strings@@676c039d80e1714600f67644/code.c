@@ -5,7 +5,7 @@ int main(){
     char b[88];
     scanf("%s",a);
     scanf("%s",b);
-    strcat(a,b);
+    strcat(a ,b);
     printf("%s",a);
     return 0;
 }

@@ -3,9 +3,11 @@
 int main(){
     char a[67];
     char b[88];
-    scanf("%s",a);
-    scanf("%s",b);
-    strcat(a ,b);
+    fgets(a,sizeof(a),stdin);
+    fgets(b,sizeof(b),stdin);
+    a[strcspn(a,"\n")='\0'];
+    b[strcspn(b,"\n")='\0'];
+    strcat(a,b);
     printf("%s",a);
     return 0;
 }
